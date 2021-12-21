@@ -16,11 +16,5 @@ pipeline {
                 print('hello')
             }
         }
-        
-                stage('If Abort is clicked') {
-            steps {
-                print('Abort clicked')
-            }
-        }
     }
 }
